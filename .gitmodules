@@ -1,0 +1,18 @@
+[submodule "tuxpaint"]
+	path = tuxpaint
+	url = https://git.code.sf.net/p/tuxpaint/tuxpaint
+[submodule "SDL2_Pango"]
+	path = SDL2_Pango
+	url = https://github.com/markuskimius/SDL2_Pango
+[submodule "pango"]
+	path = pango
+	url = https://gitlab.gnome.org/GNOME/pango.git
+[submodule "glib"]
+	path = glib
+	url = https://gitlab.gnome.org/GNOME/glib.git
+[submodule "fontconfig"]
+	path = fontconfig
+	url = https://gitlab.freedesktop.org/fontconfig/fontconfig.git
+[submodule "librsvg"]
+	path = librsvg
+	url = https://gitlab.gnome.org/GNOME/librsvg.git

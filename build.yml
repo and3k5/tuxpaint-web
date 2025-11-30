@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  builder:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /workspace
+    volumes:
+      - .:/workspace:delegated
+    entrypoint: ["/bin/bash", "-c", "./docker-build.sh" ]
+    #entrypoint: ["/workspace/build.sh"]
+    restart: "no"
